@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Gurnoor Loee</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Gurnoor Loee</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  <div id="projects-page" class="hidden-page">
+    <div style="padding-top: 100px;" class="page-container">
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">My Projects</h2>
+          <div class="row">
+
+            <!-- AI Video Maker -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card card-custom h-100">
+                <img src="images/ai-video-maker.png" class="card-img-top" alt="AI Video Maker"/>
+                <div class="card-body p-4">
+                  <h5 class="card-title">AI Video Maker</h5>
+                  <p class="card-text">
+                    Full-stack AI video generation tool that uses LLM to convert user prompts into dynamic video scripts and voiceovers. 
+                    Helped grow YouTube channel to 10,000+ views in 2 months.
+                  </p>
+                  <div class="mb-3">
+                    <small class="text-muted">
+                      <strong>Tech Stack:</strong> React.js, Next.js, Gen AI, GCP, PostgreSQL, JavaScript, TailwindCSS, Docker
+                    </small>
+                  </div>
+                  <div class="text-center">
+                    <a href="https://github.com/GSLoee/AI-Video-Generator" class="btn btn-outline-secondary">
+                      <i class="fab fa-github me-1"></i>GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tennis Analyzer -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card card-custom h-100">
+                <img src="images/tennis-analyzer.png" class="card-img-top" alt="Tennis Analyzer"/>
+                <div class="card-body p-4">
+                  <h5 class="card-title">Tennis Analyzer</h5>
+                  <p class="card-text">
+                    Tennis tracking system using YOLOv8 and PyTorch, trained on 500+ images to accurately detect and track ball and player movement. 
+                    Features CNN for keypoint prediction and player analysis.
+                  </p>
+                  <div class="mb-3">
+                    <small class="text-muted">
+                      <strong>Tech Stack:</strong> Python, PyTorch, YOLOv8, Pandas, NumPy, CV2, Machine Learning
+                    </small>
+                  </div>
+                  <div class="text-center">
+                    <a href="https://github.com/GSLoee/Tennis-Analysis" class="btn btn-outline-secondary">
+                      <i class="fab fa-github me-1"></i>GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Spring Boot Image Upload -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card card-custom h-100">
+                <div class="card-body p-4">
+                  <h5 class="card-title">Spring Boot Image Upload</h5>
+                  <p class="card-text">
+                    User profile service using Java Spring Boot for secure profile picture uploads to AWS S3. 
+                    Achieved 100% uptime for image retrieval and storage.
+                  </p>
+                  <div class="mb-3">
+                    <small class="text-muted">
+                      <strong>Tech Stack:</strong> Java, Spring Boot, React.js, JavaScript, AWS S3, CSS, HTML
+                    </small>
+                  </div>
+                  <div class="text-center">
+                    <a href="#" class="btn btn-outline-secondary">
+                      <i class="fab fa-github me-1"></i>GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- MarketRealm -->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card card-custom h-100">
+                <img src="images/marketrealm.png" class="card-img-top" alt="MarketRealm"/>
+                <div class="card-body p-4">
+                  <h5 class="card-title">MarketRealm</h5>
+                  <p class="card-text">
+                    Full-stack responsive e-commerce application for buying and selling products. 
+                    Architected following Software Development Life Cycle (SDLC) best practices.
+                  </p>
+                  <div class="mb-3">
+                    <small class="text-muted">
+                      <strong>Tech Stack:</strong> React.js, Node.js, Express.js, ClerkAuth, MongoDB, Tailwind, TypeScript
+                    </small>
+                  </div>
+                  <div class="text-center">
+                    <a href="https://marketrealm.vercel.app/" target="_blank" class="btn btn-outline-primary me-2">
+                      <i class="fas fa-external-link-alt me-1"></i>Live Demo
+                    </a>
+                    <a href="https://github.com/GSLoee/Marketrealm" class="btn btn-outline-secondary">
+                      <i class="fab fa-github me-1"></i>GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+      <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://linkedin.com/in/gurnoor-loee" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/GSLoee" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:gurnoorloee001@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:(647)-394-7567" class="social-link">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Gurnoor Loee. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
