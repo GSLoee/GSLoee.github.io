@@ -213,3 +213,89 @@ body {
     font-weight: 500;
     transition: all 0.3s ease;
 }
+
+body.dark-mode {
+    background-color: #1f2937;
+    color: #f8fafc;
+}
+
+body.dark-mode .card-custom {
+    background-color: #374151;
+    color: #f8fafc;
+}
+
+body.dark-mode .navbar-custom {
+    background-color: #111827;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .footer {
+    background-color: #111827;
+}
+
+body.dark-mode .form-control {
+    background-color: #374151;
+    color: #f8fafc;
+    border-color: #4b5563;
+}
+
+body.dark-mode .form-control:focus {
+    border-color: #60a5fa;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #60a5fa;
+    border-color: #60a5fa;
+}
+
+body.dark-mode .btn-outline-primary {
+    color: #60a5fa;
+    border-color: #60a5fa;
+}
+
+body.dark-mode {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+body.dark-mode .section-title {
+    color: var(--light-color);
+}
+
+body.dark-mode .nav-link,
+body.dark-mode .footer,
+body.dark-mode .card-text,
+body.dark-mode .form-label,
+body.dark-mode .skill-item {
+    color: var(--light-color) !important;
+}
+
+body.dark-mode .card-custom {
+    background-color: #374151;
+    color: var(--light-color);
+}
+
+body.dark-mode .navbar-custom {
+    background-color: rgba(31, 41, 55, 0.95);
+    color: var(--light-color);
+}
+
+body.dark-mode .form-control {
+    background-color: #1f2937;
+    color: var(--light-color);
+    border-color: #4b5563;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #9ca3af;
+}
+
+body.dark-mode .card-custom {
+    background-color: #374151;
+    color: #f8fafc;
+}
+
+body.dark-mode .card-custom .card-title,
+body.dark-mode .card-custom .card-text {
+    color: #f8fafc;
+}
