@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Implementing Light/Dark Mode",
+        "date": "2025-07-18",
+        "content": "I added a theme toggle to all pages using a button in the navbar. It switches between light and dark themes and saves the user's choice using localStorage."
+    },
+    {
+        "title": "Building a Dynamic Blog Section",
+        "date": "2025-07-18",
+        "content": "I used JavaScript to fetch blog posts from a JSON file and render them dynamically. This made adding new blog posts easy without touching HTML."
+    }
+]
