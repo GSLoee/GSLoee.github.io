@@ -1,12 +1,12 @@
 [
-    {
-        "title": "Implementing Light/Dark Mode",
-        "date": "2025-07-18",
-        "content": "I added a theme toggle to all pages using a button in the navbar. It switches between light and dark themes and saves the user's choice using localStorage."
-    },
-    {
-        "title": "Building a Dynamic Blog Section",
-        "date": "2025-07-18",
-        "content": "I used JavaScript to fetch blog posts from a JSON file and render them dynamically. This made adding new blog posts easy without touching HTML."
-    }
+  {
+    "title": "Implementing Light/Dark Mode Theme Switcher",
+    "date": "2025-07-18",
+    "content": "I added a light/dark mode toggle to my website using JavaScript, localStorage, and a CSS class strategy. First, I created a toggle button in the navbar with an icon that switches between a moon and a sun. When clicked, it toggles a 'dark-mode' class on the <body> element. The styles for dark mode are defined in CSS using .dark-mode selectors that override the default colors. For example, card backgrounds change to a darker shade, and text becomes light. I also used localStorage to remember the user’s theme preference. When the page loads, it checks localStorage and applies the correct theme automatically. This way, users have a consistent experience across sessions."
+  },
+  {
+    "title": "Building a Dynamic Blog Section with JSON & JavaScript",
+    "date": "2025-07-18",
+    "content": "I created a dynamic blog section where posts are stored in a separate posts.json file instead of hardcoded in HTML. Using JavaScript, I fetch the JSON file and loop through the posts to create blog card elements on the page. Each post contains a title, date, and content. I formatted the date using JavaScript’s Date object to make it readable. This approach makes it really easy to add or remove blog posts without touching any HTML – just update the JSON file! I also made sure the dates adapt to dark mode by overriding the .text-muted class in dark mode CSS to use a lighter text color. This keeps everything readable whether in light or dark theme."
+  }
 ]
